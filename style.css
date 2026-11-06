@@ -329,6 +329,7 @@ svg{display:block}
   .hero-foto::after{background:linear-gradient(0deg,#fff 0,rgba(255,255,255,0) 14%)}
   .hero-in{flex:0 0 auto;align-self:auto;padding:4px 0 calc(22px + env(safe-area-inset-bottom))}
   .hero h1{color:var(--ink);font-size:clamp(33px,min(9.4vw,5.4svh),42px);line-height:1.05}
+  .hero .lead,.hero-nota{text-shadow:none}
   .hero .lead{color:var(--tekst);font-size:clamp(16px,min(4.3vw,2.25svh),18px);margin:12px 0 18px}
   .hero-akcje{flex-direction:column;align-items:stretch;gap:12px}
   .hero-akcje .btn{width:100%}
